@@ -4,10 +4,7 @@
         "memory": "8gb",
         "storage": "32gb"
     },
-
     "image": "mcr.microsoft.com/devcontainers/typescript-node",
+    "postStartCommand": "bash ~/init.sh"
     
-    {
-        "postStartCommand": "bash ~/init.sh"
-    }
 }
