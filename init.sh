@@ -15,7 +15,7 @@ sudo apt update
 sudo apt-get install terraform
 
 #install azure cli
-curl -L https://aka.ms/InstallAzureCli -y | bash
+curl -L https://aka.ms/InstallAzureCli | bash
 
 #install gcloud cli
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
