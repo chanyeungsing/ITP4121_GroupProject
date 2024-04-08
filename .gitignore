@@ -1,2 +1,5 @@
 /aws
 .terraform
+.tfvars
+.tfvars
+.tf*
