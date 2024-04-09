@@ -2,4 +2,5 @@
 .terraform
 .tfvars
 .tfvars
-.tf*
+.tfstate
+.backup
