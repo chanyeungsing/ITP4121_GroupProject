@@ -1,2 +1,6 @@
 /aws
 .terraform
+.tfvars
+.tfvars
+.tfstate
+.backup
