@@ -3,5 +3,5 @@
 .tfvars
 .tfvars
 .tfstate
-.backup
+.tfstate.backup
 secret.tf
