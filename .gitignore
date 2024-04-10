@@ -38,3 +38,7 @@ dist
 .fleet
 
 .DS_Store
+
+# my-own
+terraform-google-network/
+.terraform.lock.hcl
