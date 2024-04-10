@@ -25,5 +25,6 @@ resource "azurerm_kubernetes_cluster" "aks1" {
   }
 
   role_based_access_control_enabled = true
+  private_cluster_enabled = true
 
 }
