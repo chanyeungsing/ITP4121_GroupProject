@@ -24,11 +24,7 @@ resource "google_compute_instance" "vm3" {
 
 
   network_interface {
-    network = "default"
-
-    access_config {
-      // Ephemeral public IP
-    }
+    subnetwork = google_compute_network.vpc2.name
   }
 
   metadata = {
