@@ -18,6 +18,13 @@ resource "azurerm_kubernetes_cluster" "aks1" {
     client_secret = var.password
   }
 
+  auto_scaler_profile {
+    scale_down_utilization_threshold = 0.5
+    max_unready_nodes = 4
+    max_unready_percentage = 50
+  }
+
   role_based_access_control_enabled = true
+  private_cluster_enabled = true
 
 }
